@@ -1,7 +1,7 @@
 package com.example.orderapplication.Entity;
 import jakarta.persistence.*;
 @Entity
-@Table(name="orders")
+@Table(name="orders_table")
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO )
